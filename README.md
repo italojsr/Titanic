@@ -37,10 +37,11 @@ To solve this problem the following steps were taken:
 | LinearSVC| 0.786249 | 0.812547 | 0.708589 |
 | SGD| 0.717735 | 0.752229 | 0.613251 |
 
+<img src="metrics.jpg" width="400" alt="Image Description">
   
-![metric](https://github.com/italojsr/Titanic/assets/97315148/9b8d78eb-865c-465f-a13f-96eb166bea1a)
+
 
 
 ## Results
 
-The final prediction on the test set had an accuracy of 0.77272 which is slightly greater than the sample available for comparison on the kaggle website (0.76555).
+The final prediction on the test set had a score of 0.77272 which is slightly greater than the sample available for comparison on the kaggle website (0.76555).
