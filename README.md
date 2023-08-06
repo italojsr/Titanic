@@ -7,26 +7,24 @@
 </div>
 
 ## Challenge Description
-Over the challenge, it is expected to use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
-It is a classical problem of binary classification, once that is given a training set with the labels of the passengers who survived and who died.
+
+The challenge consists of applying machine learning to create a prediction model capable of discerning which passengers survived the Titanic's shipwreck. It is a classical problem of binary classification, since uses a training set with labels for survivors and deceased passengers.
 
 ## Goals
-The goal of this project is to apply all steps that an end-to-end machine learning project may have. Such as Preprocessing,Exploratory Data Analysis (EDA),
-Selecting models and Tuning Hyperparameters. All of it was done using libraries as Scikit-learning, pandas,numpy, matplotlib and seaborn.
+The challenge's primary goal rest on the development of a end-to-end machine learning project. Therefore, the project encompasses Preprocessing, Exploratory Data Analysis (EDA), Selecting models, and Tuning Hyperparameters. All of these, using libraries such as Scikit-learning, Pandas, Numpy, Matplotlib, and Seaborn.
 
 ## Solution Strategy
-To solve this problem the following steps were taken:
-- Data Cleaning : Missing values and Outliers were evaluated and cleaned from the dataset.
-- Exploratory Data Analysis : It was evaluated how some attribute could be correlated to the survival of the passengers
-- Preprocessing : Categorical attributes were encoded and Numerical attributes were scaled.
-- Model Selection : Different models were tested using metrics for classification.
-- Hyperparameter optimization : Different configurations of parameters were tested for the best model.
-- Predictions on the Test Set : The test set was classified by the final model. 
+The project's methodological path took follows the steps described below:
+-Data Cleaning: Evaluation and cleaning of missing values and outliers from the dataset;
+-Exploratory Data Analysis: Identification and evaluation of the attributes correlated to the survival of the passengers;
+-Preprocessing: Encoding of categorical attributes and scaling of numerical attributes.
+-Model Selection: Testing of different models reckoning metrics for classification.
+-Hyperparameter optimization: Testing of different configurations of parameters, towards the discovery of the best model.
+-Predictions on the Test Set: Test set classification by the final model.
 
 ## Insights from EDA
--  Females had a greater percentage of survivals
--  The third class of the ship had the greater percentage of people that didn't survive
--  There were a greater percentage of males on the third class
+- Women had a greater percentage of survivals;
+- The third class of the ship had the highest percentage of deceased;
 
 ## Machine learning models performance
 | Model | Accuracy | AUC score | F1 score
