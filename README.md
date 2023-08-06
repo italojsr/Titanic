@@ -15,12 +15,12 @@ The challenge's primary goal rest on the development of a end-to-end machine lea
 
 ## Solution Strategy
 The project's methodological path took follows the steps described below:
--Data Cleaning: Evaluation and cleaning of missing values and outliers from the dataset;
--Exploratory Data Analysis: Identification and evaluation of the attributes correlated to the survival of the passengers;
--Preprocessing: Encoding of categorical attributes and scaling of numerical attributes.
--Model Selection: Testing of different models reckoning metrics for classification.
--Hyperparameter optimization: Testing of different configurations of parameters, towards the discovery of the best model.
--Predictions on the Test Set: Test set classification by the final model.
+- Data Cleaning: Evaluation and cleaning of missing values and outliers from the dataset;
+- Exploratory Data Analysis: Identification and evaluation of the attributes correlated to the survival of the passengers;
+- Preprocessing: Encoding of categorical attributes and scaling of numerical attributes.
+- Model Selection: Testing of different models reckoning metrics for classification.
+- Hyperparameter optimization: Testing of different configurations of parameters, towards the discovery of the best model.
+- Predictions on the Test Set: Test set classification by the final model.
 
 ## Insights from EDA
 - Women had a greater percentage of survivals;
