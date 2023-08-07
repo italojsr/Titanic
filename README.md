@@ -35,7 +35,7 @@ The project's methodological path took follows the steps described below:
 | LinearSVC| 0.786249 | 0.812547 | 0.708589 |
 | SGD| 0.717735 | 0.752229 | 0.613251 |
 
-<img src="auc score.jpg" width="400" alt="Image Description">
+<img src="roc curve.jpg" width="400" alt="Image Description">
   
 
 
